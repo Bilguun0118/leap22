@@ -31,11 +31,10 @@
 
 //number digits
 let a = 12345678;
+let b = 0
 
-while (a <= 0) {
-
-    let b = Math.round(a / 10)
-    console.log(b);
+while (a != 0) {
+    a = Math.round(a / 10);
     b++;
-
 }
+console.log(b);
