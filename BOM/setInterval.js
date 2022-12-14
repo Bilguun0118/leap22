@@ -1,5 +1,5 @@
 let counte = 0;
-let obj = setInterval(startInterval, 100)
+let obj = setInterval(startInterval, 500)
 
 function startInterval() {
     console.log(counte)
